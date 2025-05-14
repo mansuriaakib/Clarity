@@ -1,0 +1,1410 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #0E1116 !important;
+    font-family: "Inter", sans-serif;
+    background: url("../images/body-bg.png")50% 50% no-repeat;
+}
+
+/* HEADER SECTION CSS [START] */
+#header {
+    background-color: #0E1116;
+}
+
+#header button.btn.offcanvas-menu-icon {
+    display: none;
+}
+
+#header nav.navbar {
+    padding: 32px 0px;
+}
+
+#header a.nav-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 0px 30px;
+}
+
+#header .header-icons a {
+    padding: 0px 10px;
+}
+
+#header .header-icons a i {
+    color: #fff;
+    font-size: 30px;
+}
+
+/* HEADER SECTION CSS [END] */
+
+/* BANNER SECTION CSS [START] */
+#banner {
+    padding: 120px 0px;
+    background-color: #171733;
+    text-align: center;
+    height: 50rem;
+    position: relative;
+}
+
+#banner .banner-top-btns-main {
+    display: flex;
+    justify-content: center;
+}
+
+#banner .banner-top-btns {
+    border: 1px solid #858B98;
+    padding: 4px 0px;
+    border-radius: 50px;
+}
+
+#banner .banner-top-btns a.banner-top-btns-astro {
+    color: #fff;
+    background-color: #491FCB;
+    border: 1px solid #F041FF;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 50px;
+    padding: 7px 12px;
+    text-decoration: none;
+}
+
+#banner .banner-top-btns a.banner-top-btns-astro:hover,
+#banner .banner-top-btns a.banner-top-btns-astro.active {
+    background-color: transparent;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+#banner .banner-top-btns a.banner-top-btns-learn {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 50px;
+    padding: 7px 12px;
+}
+
+#banner .banner-top-btns a.banner-top-btns-learn:hover,
+#banner .banner-top-btns a.banner-top-btns-learn.active {
+    background-color: #491FCB;
+    border: 1px solid #F041FF;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+}
+
+#banner .banner-title {
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+
+#banner .banner-title h1 {
+    color: #F2F6FA;
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 600;
+}
+
+#banner .banner-title p {
+    color: #F2F6FA;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+#banner .banner-btns a.banner-get-btn {
+    color: #3245FF;
+    background-color: #F2F6FA;
+    padding: 20px 40px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    margin-right: 25px;
+}
+
+#banner .banner-btns a.banner-get-btn:hover {
+    color: #fff;
+    background-color: #23262D;
+    border: 1px solid #F041FF;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+
+#banner .banner-btns a.banner-npm-btn {
+    color: #F2F6FA;
+    background-color: #23262D;
+    border: 1px solid #F041FF;
+    padding: 20px 40px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+#banner .banner-btns a.banner-npm-btn:hover {
+    color: #3245FF;
+    background-color: #F2F6FA;
+    text-decoration: underline;
+    transition: 0.3s ease-in;
+    border: none;
+}
+
+/* BANNER SECTION CSS [END] */
+
+/* DASHBOARD SECTION CSS [START] */
+#dashboard {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 35rem;
+}
+
+/* DASHBOARD SECTION CSS [END] */
+
+/* LOGOS SECTION CSS [START] */
+#logos {
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 25rem;
+}
+
+#logos .logos-title h5 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+#logos .logos-images {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+/* LOGOS SECTION CSS [END] */
+
+/* ARCHITECTURE SECTION CSS [START] */
+#architecture {
+    padding: 180px 0px;
+    text-align: center;
+}
+
+#architecture .architecture-title {
+    padding-bottom: 65px;
+}
+
+#architecture .architecture-title h2 {
+    color: #F2F6FA;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#architecture .architecture-title p {
+    color: #BFC1C9;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+#architecture .architecture-title a {
+    color: #F2F6FA;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+#architecture .architecture-card {
+    background-color: #23262D;
+    border: 1px solid #343841;
+    height: 100%;
+}
+
+#architecture .architecture-card a {
+    text-decoration: none;
+}
+
+#architecture .architecture-card img {
+    width: 100%;
+}
+
+#architecture .architecture-card .architecture-card-details {
+    padding: 24px;
+}
+
+#architecture .architecture-card .architecture-card-details h4 {
+    color: #F3F4F6;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: left;
+}
+
+#architecture .architecture-card .architecture-card-details p {
+    color: #F3F4F6;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: left;
+}
+
+/* ARCHITECTURE SECTION CSS [END] */
+
+/* CLARITY SECTION CSS [START] */
+#clarity {
+    padding-bottom: 180px;
+    text-align: center
+}
+
+#clarity .clarity-title {
+    padding-bottom: 60px;
+}
+
+#clarity .clarity-title h2 {
+    color: #F2F6FA;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#clarity .clarity-title p {
+    color: #BFC1C9;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+#clarity .clarity-faqs {
+    padding: 80px 0px;
+}
+
+#clarity .clarity-faqs .accordion-item {
+    background-color: #23262D;
+    border: 1px solid #343841;
+    margin: 16px 0px;
+}
+
+#clarity .clarity-faqs .accordion-button {
+    color: #fff;
+    background-color: transparent;
+}
+
+#clarity .clarity-faqs .accordion-button:focus {
+    box-shadow: none;
+}
+
+#clarity .clarity-faqs .accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: transparent;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+#clarity .clarity-faqs .accordion-body p {
+    color: #E5E7EB;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#clarity .clarity-faqs .accordion-btn {
+    padding: 0px 18px;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#clarity .clarity-faqs .accordion-btn a {
+    color: #F2F6FA;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#clarity .clarity-faqs .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2219%22%20height%3D%223%22%20viewBox%3D%220%200%2019%203%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M19%201.48267C19%202.17307%2018.4404%202.73267%2017.75%202.73267H1.75C1.05964%202.73267%200.5%202.17307%200.5%201.48267C0.5%200.792266%201.05964%200.232666%201.75%200.232666H17.75C18.4404%200.232666%2019%200.792266%2019%201.48267Z%22%20fill%3D%22white%22/%3E%3C/svg%3E");
+    transform: none;
+}
+
+#clarity .clarity-faqs .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2225%22%20viewBox%3D%220%200%2024%2025%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M12%203.48267C12.6904%203.48267%2013.25%204.04231%2013.25%204.73267V11.4827H20C20.6904%2011.4827%2021.25%2012.0423%2021.25%2012.7327C21.25%2013.4231%2020.6904%2013.9827%2020%2013.9827H13.25V20.7327C13.25%2021.4231%2012.6904%2021.9827%2012%2021.9827C11.3096%2021.9827%2010.75%2021.4231%2010.75%2020.7327V13.9827H4C3.30964%2013.9827%202.75%2013.4231%202.75%2012.7327C2.75%2012.0423%203.30964%2011.4827%204%2011.4827H10.75V4.73267C10.75%204.04231%2011.3096%203.48267%2012%203.48267Z%22%20fill%3D%22%23F2F6FA%22/%3E%3C/svg%3E");
+}
+
+/* CLARITY SECTION CSS [END] */
+
+/* SPEED SECTION CSS [START] */
+#speed {
+    text-align: center;
+}
+
+#speed .speed-title {
+    padding-bottom: 64px;
+}
+
+#speed .speed-title h2 {
+    color: #F2F6FA;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#speed .speed-title p {
+    color: #BFC1C9;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+#speed .progress-bar-main {
+    background-color: #23262D;
+    border: 1px solid #343841;
+    padding: 24px;
+}
+
+#speed .progress-bar-main p {
+    color: #BFC1C9;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+#speed .clarity-progress-bar {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#speed .clarity-progress-bar h2 {
+    color: #BFC1C9;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+#speed .speed-progress {
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+#speed .progress-bar {
+    height: 30px;
+    background-color: #545864;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#speed .progress-bar.active {
+    background: linear-gradient(45deg, #4AF2C8, #2F4CB3);
+}
+
+#speed .progress-bar-main span {
+    color: #BFC1C9;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#speed .progress-bar-main a {
+    color: #F2F6FA;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+/* SPEED SECTION CSS [END] */
+
+/* INWHOA SECTION CSS [START] */
+#inwhoa {
+    padding: 180px 0px;
+}
+
+#inwhoa h2.inwhoa-title {
+    color: #F2F6FA;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 59px;
+}
+
+#inwhoa .inwhoa-library-card {
+    background-image: linear-gradient(45deg, #23262D, #3C2B52);
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+#inwhoa .inwhoa-library-card .inwhoa-library-card-cnt span {
+    color: #BFC1C9;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#inwhoa .inwhoa-library-card .inwhoa-library-card-cnt h2 {
+    color: #F3F4F6;
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 600;
+}
+
+#inwhoa .inwhoa-library-card .inwhoa-library-card-cnt p {
+    color: #F3F4F6;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+#inwhoa .inwhoa-library-card svg {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0 3%;
+    margin-top: 23%;
+}
+
+#inwhoa .inwhoa-clarity-card {
+    background: linear-gradient(45deg, #3245FF, #B845ED);
+    padding: 24px;
+    border: 1px solid #343841;
+}
+
+#inwhoa .inwhoa-clarity-card .inwhoa-clarity-card-title-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#inwhoa .inwhoa-clarity-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title span {
+    color: #F2F6FA;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-clarity-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+    color: #F3F4F6;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-clarity-card p {
+    color: #F3F4F6;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-clarity-card a {
+    color: #3245FF;
+    background-color: #F2F6FA;
+    padding: 13px 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+#inwhoa .inwhoa-themes-card {
+    background: linear-gradient(45deg, #4AF2C8, #2F4CB3);
+    padding: 24px;
+    border: 1px solid #343841;
+}
+
+#inwhoa .inwhoa-themes-card .inwhoa-clarity-card-title-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#inwhoa .inwhoa-themes-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title span {
+    color: #F2F6FA;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-themes-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+    color: #F3F4F6;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-themes-card p {
+    color: #F3F4F6;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-themes-card a {
+    color: #3245FF;
+    background-color: #F2F6FA;
+    padding: 13px 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+#inwhoa .inwhoa-docs-card {
+    background: linear-gradient(45deg, #D83333, #F041FF);
+    padding: 24px;
+    border: 1px solid #343841;
+}
+
+#inwhoa .inwhoa-docs-card .inwhoa-clarity-card-title-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+#inwhoa .inwhoa-docs-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title span {
+    color: #F2F6FA;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-docs-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+    color: #F3F4F6;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-docs-card p {
+    color: #F3F4F6;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+#inwhoa .inwhoa-docs-card a {
+    color: #3245FF;
+    background-color: #F2F6FA;
+    padding: 13px 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+#inwhoa .inwhoa-community-card {
+    background-image: linear-gradient(45deg, #3245FF, #B845ED);
+    padding: 24px;
+    margin-top: 30px;
+}
+
+#inwhoa .inwhoa-community-card .inwhoa-library-card-cnt span {
+    color: #BFC1C9;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+#inwhoa .inwhoa-community-card .inwhoa-library-card-cnt h2 {
+    color: #F3F4F6;
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+#inwhoa .inwhoa-community-card .inwhoa-library-card-cnt p {
+    color: #F3F4F6;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#inwhoa .inwhoa-community-card .inwhoa-library-card-cnt a {
+    color: #3245FF;
+    background-color: #F2F6FA;
+    padding: 13px 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+/* INWHOA SECTION CSS [END] */
+
+/* LAST SECTION CSS [START] */
+#last {
+    text-align: center;
+    padding-bottom: 180px;
+    background: url("../images/last-sec-bg.png")50% no-repeat;
+}
+
+#last .last-sec-title h2 {
+    color: #F2F6FA;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#last .last-sec-title a {
+    color: #3245FF;
+    background-color: #F3F4F6;
+    padding: 19px 40px;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+/* LAST SECTION CSS [END] */
+
+/* FOOTER SECTION CSS [START] */
+#footer {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: #0E1116;
+}
+
+#footer .footer-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-details .footer-icons i {
+    color: #E5E7EB;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+#footer .footer-details .footer-icons i::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin: 10px 0px 20px 0px;
+}
+
+#footer hr.footer-row {
+    color: #343841;
+}
+
+#footer .footer-copyright {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer .footer-copyright p {
+    color: #F2F6FA;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* FOOTER SECTION CSS [END] */
+
+/* MOBILE MEDIA CSS [START] */
+@media screen and (max-width: 767px) {
+    br {
+        display: none;
+    }
+
+    #header button.btn.offcanvas-menu-icon {
+        display: block;
+    }
+
+    #header nav.navbar {
+        padding: 15px 0px;
+    }
+
+    #header button.btn.offcanvas-menu-icon:focus {
+        box-shadow: none;
+    }
+
+    #header .offcanvas {
+        background-color: #000;
+        filter: blur(0.5px);
+        width: 100%;
+    }
+
+    #header button.offcanvas-close-btn.text-reset {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+    }
+
+    #header a.nav-link {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+        background-color: #534FF7;
+    }
+
+    #header .header-icons {
+        text-align: center;
+    }
+
+    #banner {
+        padding: 30px 0px;
+        height: 27rem;
+    }
+
+    #banner .banner-top-btns {
+        padding: 1px 0px;
+    }
+
+    #banner .banner-top-btns a.banner-top-btns-astro {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    #banner .banner-top-btns a.banner-top-btns-learn {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    #banner .banner-title h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    #banner .banner-title p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    #banner .banner-btns a.banner-get-btn {
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-right: 15px;
+    }
+
+    #banner .banner-title {
+        padding-top: 32px;
+        padding-bottom: 5px;
+    }
+
+    #banner .banner-btns a.banner-npm-btn {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    #dashboard {
+        top: 23rem;
+    }
+
+    #logos {
+        padding-top: 0px;
+        margin-top: 7rem;
+    }
+
+    #logos .logos-title h5 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    #logos .logos-images {
+        margin-top: 30px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #architecture {
+        padding: 30px 0px;
+    }
+
+    #architecture .architecture-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    #architecture .architecture-title p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #architecture .architecture-title a {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #architecture .architecture-title {
+        padding-bottom: 0px;
+    }
+
+    #architecture .architecture-card {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    #architecture .architecture-card .architecture-card-details {
+        padding: 20px;
+    }
+
+    #architecture .architecture-card .architecture-card-details h4 {
+        font-size: 19px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    #architecture .architecture-card .architecture-card-details p {
+        text-align: center;
+    }
+
+    #clarity {
+        padding-bottom: 30px;
+    }
+
+    #clarity .clarity-title {
+        padding-bottom: 0px;
+    }
+
+    #clarity .clarity-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    #clarity .clarity-title p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #clarity .clarity-faqs {
+        padding: 10px 0px;
+    }
+
+    #speed .speed-title {
+        padding-bottom: 30px;
+    }
+
+    #speed .speed-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    #speed .speed-title p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #speed .progress-bar-main {
+        padding: 20px;
+    }
+
+    #speed .progress-bar-main p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #speed .clarity-progress-bar {
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+
+    #speed .clarity-progress-bar h2 {
+        font-size: 20px;
+    }
+
+    #inwhoa {
+        padding: 30px 0px;
+    }
+
+    #inwhoa h2.inwhoa-title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    #inwhoa .inwhoa-library-card {
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #inwhoa .inwhoa-library-card .inwhoa-library-card-cnt h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #inwhoa .inwhoa-library-card svg {
+        margin: 0%;
+        margin-top: 3%;
+    }
+
+    #inwhoa .inwhoa-clarity-card {
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #inwhoa .inwhoa-clarity-card .inwhoa-clarity-card-title-img {
+        flex-direction: column;
+    }
+
+    #inwhoa .inwhoa-clarity-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #inwhoa .inwhoa-clarity-card a {
+        padding: 10px 20px;
+    }
+
+    #inwhoa .inwhoa-themes-card {
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #inwhoa .inwhoa-themes-card .inwhoa-clarity-card-title-img {
+        flex-direction: column;
+    }
+
+    #inwhoa .inwhoa-themes-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #inwhoa .inwhoa-themes-card a {
+        padding: 10px 20px;
+    }
+
+    #inwhoa .inwhoa-docs-card {
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #inwhoa .inwhoa-docs-card .inwhoa-clarity-card-title-img {
+        flex-direction: column;
+    }
+
+    #inwhoa .inwhoa-docs-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #inwhoa .inwhoa-docs-card a {
+        padding: 10px 20px;
+    }
+
+    #inwhoa .inwhoa-community-card {
+        padding: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    #inwhoa .inwhoa-community-card .inwhoa-library-card-cnt {
+        margin-bottom: 20px;
+    }
+
+    #inwhoa .inwhoa-community-card .inwhoa-library-card-cnt h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 0px;
+    }
+
+    #inwhoa .inwhoa-community-card .inwhoa-library-card-cnt a {
+        padding: 10px 20px;
+    }
+
+    #last {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #last .last-sec-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+    #last .last-sec-title a {
+        padding: 10px 20px;
+    }
+
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #footer .footer-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer .footer-icons {
+        margin-top: 30px;
+    }
+
+    #footer hr.footer-row {
+        display: none;
+    }
+
+    #footer .footer-copyright {
+        margin-top: 0px;
+    }
+}
+
+/* MOBILE MEDIA CSS [END] */
+
+/* TABLET MEDIA CSS [START] */
+@media screen and (min-width:768px) and (max-width: 992px) {
+    br {
+        display: none;
+    }
+
+    #header button.btn.offcanvas-menu-icon {
+        display: block;
+    }
+
+    #header nav.navbar {
+        padding: 15px 0px;
+    }
+
+    #header button.btn.offcanvas-menu-icon:focus {
+        box-shadow: none;
+    }
+
+    #header .offcanvas {
+        background-color: #000;
+        filter: blur(0.5px);
+        width: 50%;
+    }
+
+    #header button.offcanvas-close-btn.text-reset {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+    }
+
+    #header a.nav-link {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+        background-color: #534FF7;
+    }
+
+    #header .header-icons {
+        text-align: center;
+    }
+
+    #banner {
+        padding: 30px 0px;
+        height: 24rem;
+    }
+
+    #banner .banner-top-btns {
+        padding: 1px 0px;
+    }
+
+    #banner .banner-top-btns a.banner-top-btns-astro {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    #banner .banner-top-btns a.banner-top-btns-learn {
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    #banner .banner-title h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    #banner .banner-title p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    #banner .banner-btns a.banner-get-btn {
+        padding: 10px 20px;
+        font-size: 13px;
+        margin-right: 15px;
+    }
+
+    #banner .banner-title {
+        padding-top: 32px;
+        padding-bottom: 5px;
+    }
+
+    #banner .banner-btns a.banner-npm-btn {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    #dashboard {
+        top: 19rem;
+    }
+
+    #logos {
+        padding-top: 0px;
+        margin-top: 16rem;
+    }
+
+    #logos .logos-title h5 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    #logos .logos-images {
+        margin-top: 30px;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    #architecture {
+        padding: 30px 0px;
+    }
+
+    #architecture .architecture-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    #architecture .architecture-title p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #architecture .architecture-title a {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #architecture .architecture-title {
+        padding-bottom: 0px;
+    }
+
+    #architecture .architecture-card {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    #architecture .architecture-card .architecture-card-details {
+        padding: 20px;
+    }
+
+    #architecture .architecture-card .architecture-card-details h4 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    #clarity {
+        padding-bottom: 30px;
+    }
+
+    #clarity .clarity-title {
+        padding-bottom: 0px;
+    }
+
+    #clarity .clarity-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    #clarity .clarity-title p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #clarity .clarity-faqs {
+        padding: 10px 0px;
+    }
+
+    #speed .speed-title {
+        padding-bottom: 30px;
+    }
+
+    #speed .speed-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    #speed .speed-title p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #speed .progress-bar-main {
+        padding: 20px;
+    }
+
+    #speed .progress-bar-main p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #speed .clarity-progress-bar {
+        gap: 20px;
+        margin-bottom: 15px;
+    }
+
+    #speed .clarity-progress-bar h2 {
+        font-size: 20px;
+    }
+
+    #inwhoa {
+        padding: 30px 0px;
+    }
+
+    #inwhoa h2.inwhoa-title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+
+    #inwhoa .inwhoa-library-card {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    #inwhoa .inwhoa-library-card .inwhoa-library-card-cnt h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #inwhoa .inwhoa-library-card svg {
+        margin: 0%;
+        margin-top: 3%;
+    }
+
+    #inwhoa .inwhoa-clarity-card {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    #inwhoa .inwhoa-clarity-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #inwhoa .inwhoa-clarity-card a {
+        padding: 10px 20px;
+    }
+
+    #inwhoa .inwhoa-themes-card {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    #inwhoa .inwhoa-themes-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #inwhoa .inwhoa-themes-card a {
+        padding: 10px 20px;
+    }
+
+    #inwhoa .inwhoa-docs-card {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    #inwhoa .inwhoa-docs-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #inwhoa .inwhoa-docs-card a {
+        padding: 10px 20px;
+    }
+
+    #inwhoa .inwhoa-community-card {
+        padding: 20px;
+        margin-top: 0px;
+    }
+
+    #inwhoa .inwhoa-community-card .inwhoa-library-card-cnt {
+        margin-bottom: 20px;
+    }
+
+    #inwhoa .inwhoa-community-card .inwhoa-library-card-cnt h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 0px;
+    }
+
+    #inwhoa .inwhoa-community-card .inwhoa-library-card-cnt a {
+        padding: 10px 20px;
+    }
+
+    #last {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #last .last-sec-title h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+    #last .last-sec-title a {
+        padding: 10px 20px;
+    }
+
+    #footer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #footer .footer-copyright {
+        margin-top: 0px;
+    }
+}
+
+/* TABLET MEDIA CSS [END] */
