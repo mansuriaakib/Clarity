@@ -1354,6 +1354,7 @@ body {
     #inwhoa .inwhoa-docs-card {
         padding: 20px;
         margin-bottom: 30px;
+        height: auto;
     }
 
     #inwhoa .inwhoa-docs-card .inwhoa-clarity-card-title-img .inwhoa-clarity-card-title h3 {
